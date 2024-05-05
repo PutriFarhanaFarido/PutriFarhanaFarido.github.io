@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOFOLIO</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="position-fixed" style="bottom: 30px; right: 30px; z-index: 999;">
+        <div class="dropup-center">
+
+            <div class="border-0 d-flex flex-column align-items-center">
+                <div class="border-0 d-none flex-column align-items-center" id="popup">
+
+                    <a class="btn btn-light p-2 rounded-5 shadow mb-3" href="#tentang"><svg viewBox="0 0 24 24"
+                            width="23" height="23">
+                            <path
+                                d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z" />
+                            <path
+                                d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z" />
+                        </svg>
+                    </a>
+
+                    <a class="btn btn-light p-2 rounded-5 shadow mb-3" href="#pendidikan">
+                        <svg viewBox="0 0 512 512" width="23" height="23">
+                            <path
+                                d="M470.549,111.573L313.237,36.629c-34.628-20.684-77.728-21.051-112.704-0.96L41.451,111.573  c-0.597,0.299-1.216,0.619-1.792,0.96c-37.752,21.586-50.858,69.689-29.272,107.441c7.317,12.798,18.08,23.284,31.064,30.266  l43.883,20.907V375.68c0.026,46.743,30.441,88.039,75.072,101.931c31.059,8.985,63.264,13.384,95.595,13.056  c32.326,0.362,64.531-4,95.595-12.949c44.631-13.891,75.046-55.188,75.072-101.931V271.104l42.667-20.395v175.957  c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333v-256C512.143,145.615,492.363,122.473,470.549,111.573z   M384,375.787c0.011,27.959-18.129,52.69-44.8,61.077c-27.046,7.728-55.073,11.479-83.2,11.136  c-28.127,0.343-56.154-3.408-83.2-11.136c-26.671-8.388-44.811-33.118-44.8-61.077v-84.309l70.763,33.707  c17.46,10.368,37.401,15.816,57.707,15.765c19.328,0.137,38.331-4.98,54.976-14.805L384,291.477V375.787z M452.267,211.733  l-160.896,76.8c-22.434,13.063-50.241,12.693-72.32-0.96l-157.419-74.88c-17.547-9.462-24.101-31.357-14.639-48.903  c3.2-5.934,7.998-10.853,13.85-14.201l159.893-76.373c22.441-13.034,50.233-12.665,72.32,0.96l157.312,74.944  c11.569,6.424,18.807,18.555,18.965,31.787C469.354,193.441,462.9,205.097,452.267,211.733L452.267,211.733z" />
+                        </svg>
+                    </a>
+                    <a class="btn btn-light p-2 rounded-5 shadow mb-3" href="#pengalaman">
+                        <svg viewBox="0 0 24 24" height="23" width="23">
+                            <path
+                                d="m17 14a1 1 0 0 1 -1 1h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 1 1zm-4 3h-5a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2zm9-6.515v8.515a5.006 5.006 0 0 1 -5 5h-10a5.006 5.006 0 0 1 -5-5v-14a5.006 5.006 0 0 1 5-5h4.515a6.958 6.958 0 0 1 4.95 2.05l3.484 3.486a6.951 6.951 0 0 1 2.051 4.949zm-6.949-7.021a5.01 5.01 0 0 0 -1.051-.78v4.316a1 1 0 0 0 1 1h4.316a4.983 4.983 0 0 0 -.781-1.05zm4.949 7.021c0-.165-.032-.323-.047-.485h-4.953a3 3 0 0 1 -3-3v-4.953c-.162-.015-.321-.047-.485-.047h-4.515a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3z" />
+                        </svg>
+                    </a>
+
+                    <a class="btn btn-light p-2 rounded-5 shadow mb-3" href="#pengalaman">
+                        <svg viewBox="0 0 24 24" height="23" width="23">
+                            <path
+                                d="m21.499,0l-5,.002c-1.375,0-2.499,1.126-2.499,2.5v6.852c.001,1.069,1.206,1.695,2.081,1.081l2.047-1.436h3.372c1.381,0,2.5-1.119,2.5-2.5v-4C24,1.119,22.88,0,21.499,0Zm.484,4.24l-2.084,2.147c-.796.823-2.118.817-2.905-.015l-.769-.813c-.367-.388-.364-.995.006-1.379.395-.411,1.054-.408,1.445.006l.777.821,2.092-2.156c.391-.405,1.04-.407,1.433-.004.378.387.38,1.004.004,1.394Zm-14.483,7.76c3.032,0,5.5-2.467,5.5-5.5S10.532,1,7.5,1,2,3.467,2,6.5s2.468,5.5,5.5,5.5Zm0-9c1.93,0,3.5,1.57,3.5,3.5s-1.57,3.5-3.5,3.5-3.5-1.57-3.5-3.5,1.57-3.5,3.5-3.5Zm7.5,18.5v1.5c0,.552-.447,1-1,1s-1-.448-1-1v-1.5c0-3.033-2.468-5.5-5.5-5.5s-5.5,2.467-5.5,5.5v1.5c0,.552-.447,1-1,1s-1-.448-1-1v-1.5c0-4.136,3.364-7.5,7.5-7.5s7.5,3.364,7.5,7.5Z" />
+                        </svg>
+                    </a>
+                </div>
+
+
+                    <button class="btn btn-light p-3 shadow rounded-circle bg-custom" id="btn-pupup" onclick="popupTogle()">
+                        <svg viewBox="0 0 24 24" width="23" height="23" fill="white">
+                            <path
+                                d="M18,15.5a1,1,0,0,1-.71-.29l-4.58-4.59a1,1,0,0,0-1.42,0L6.71,15.21a1,1,0,0,1-1.42-1.42L9.88,9.21a3.06,3.06,0,0,1,4.24,0l4.59,4.58a1,1,0,0,1,0,1.42A1,1,0,0,1,18,15.5Z" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="info" style="width: 100%;">
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-lg-3 h-custom" style="padding-top: 100px; padding-bottom: 30px ;">
+                        <div class="bg-white p-2 shadow-sm rounded-4" style="height: 100%;">
+                            <div class="d-flex w-100 align-items-center flex-column">
+                                <img src="foto.jpg" class="profil rounded-4 shadow-sm" style="margin-top: -80px;" alt=""
+                                    sizes="" srcset="">
+                                <h4 class="mt-4 text-center">Putri Farhana Farido</h4>
+                                <small class="text-muted">UI/UX Designer</small>
+                                <div class="sosmed d-flex align-items-center gap-2 mt-4">
+                                    <a href="https://linkedin.com/in/putri-farhana-f-8349402a4" target="_blank"
+                                        class="btn btn-custom1">
+                                        <img src="icon/linkedin.png" alt="" srcset="">
+                                    </a>
+                                    <a href="https://instagram.com/ptrifrhana" target="_blank" class="btn btn-custom1">
+                                        <img src="icon/instagram.png" alt="" srcset="">
+                                    </a>
+                                    <a href="https://api.whatsapp.com/send/?phone=%2B6282198449010" target="_blank"
+                                        class="btn btn-custom1">
+                                        <img src="icon/whatsapp.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mt-3 bg-light rounded-3 py-2 px-2">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item bg-light px-0">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div class="bg-white rounded-2 p-2 shadow">
+                                                <svg viewBox="0 0 24 24" width="23" height="23"
+                                                    fill="rgb(54, 196, 196)">
+                                                    <path
+                                                        d="M19,1H5A5.006,5.006,0,0,0,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,2.78,1.887l-7.658,7.659a3.007,3.007,0,0,1-4.244,0L2.22,4.887A3,3,0,0,1,5,3ZM19,21H5a3,3,0,0,1-3-3V7.5L8.464,13.96a5.007,5.007,0,0,0,7.072,0L22,7.5V18A3,3,0,0,1,19,21Z" />
+                                                </svg>
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <small class="text-muted">Email</small>
+                                                <small class="m-0 fw-medium">pfarhana62@gmail.com</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item bg-light px-0">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div class="bg-white rounded-2 p-2 shadow">
+                                                <svg viewBox="0 0 24 24" width="23" height="23" fill="#d86060">
+                                                    <path
+                                                        d="M15.045,0c-.027-.001-6.063-.001-6.09,0-2.736,.024-4.955,2.258-4.955,4.999v14c0,2.757,2.243,5,5,5h6c2.757,0,5-2.243,5-5V5C20,2.258,17.781,.025,15.045,0Zm2.955,18.999c0,1.654-1.346,3-3,3h-6c-1.654,0-3-1.346-3-3V5c0-1.453,1.038-2.667,2.411-2.942l.694,1.389c.169,.339,.516,.553,.895,.553h4c.379,0,.725-.214,.895-.553l.694-1.389c1.373,.274,2.411,1.489,2.411,2.942v14Zm-5,1h-2c-.552,0-1-.448-1-1h0c0-.552,.448-1,1-1h2c.552,0,1,.448,1,1h0c0,.552-.448,1-1,1Z" />
+                                                </svg>
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <small class="text-muted">Telepon</small>
+                                                <small class="m-0 fw-medium">+62 821-9844-9010</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item bg-light px-0">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div class="bg-white rounded-2 p-2 shadow">
+                                                <svg viewBox="0 0 512 512" width="23" height="23"
+                                                    fill="rgb(0, 185, 15)">
+                                                    <g id="_01_align_center">
+                                                        <path
+                                                            d="M255.104,512.171l-14.871-12.747C219.732,482.258,40.725,327.661,40.725,214.577c0-118.398,95.981-214.379,214.379-214.379   s214.379,95.981,214.379,214.379c0,113.085-179.007,267.682-199.423,284.932L255.104,512.171z M255.104,46.553   c-92.753,0.105-167.918,75.27-168.023,168.023c0,71.042,110.132,184.53,168.023,236.473   c57.892-51.964,168.023-165.517,168.023-236.473C423.022,121.823,347.858,46.659,255.104,46.553z" />
+                                                        <path
+                                                            d="M255.104,299.555c-46.932,0-84.978-38.046-84.978-84.978s38.046-84.978,84.978-84.978s84.978,38.046,84.978,84.978   S302.037,299.555,255.104,299.555z M255.104,172.087c-23.466,0-42.489,19.023-42.489,42.489s19.023,42.489,42.489,42.489   s42.489-19.023,42.489-42.489S278.571,172.087,255.104,172.087z" />
+                                                    </g>
+                                                </svg>
+
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <small class="text-muted">Domisili</small>
+                                                <small class="m-0 fw-medium">Makassar</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item bg-light px-0">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div class="bg-white rounded-2 p-2 shadow">
+                                                <svg viewBox="0 0 24 24" width="23" height="23" fill="rgb(146, 3, 212)">
+                                                    <path
+                                                        d="M19,2H18V1a1,1,0,0,0-2,0V2H8V1A1,1,0,0,0,6,1V2H5A5.006,5.006,0,0,0,0,7V19a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V7A5.006,5.006,0,0,0,19,2ZM2,7A3,3,0,0,1,5,4H19a3,3,0,0,1,3,3V8H2ZM19,22H5a3,3,0,0,1-3-3V10H22v9A3,3,0,0,1,19,22Z" />
+                                                    <circle cx="12" cy="15" r="1.5" />
+                                                    <circle cx="7" cy="15" r="1.5" />
+                                                    <circle cx="17" cy="15" r="1.5" />
+                                                </svg>
+
+
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <small class="text-muted">Tempat Tanggal Lahir</small>
+                                                <small class="m-0 fw-medium">Papua, 17 September 2004</small>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-3">
+                </div>
+                <div class="col mt-5 pb-4">
+                    <div class="d-flex justify-content-end">
+                        <div class="nb bg-white d-flex gap-2 p-4 rounded-4 shadow-sm overflow-auto">
+                            <a href="#tentang"
+                                class="btn btn-custom1 active d-flex flex-column align-items-center justify-content-center p-3 gap-2">
+                                <svg viewBox="0 0 24 24" width="23" height="23">
+                                    <path
+                                        d="M12,12A6,6,0,1,0,6,6,6.006,6.006,0,0,0,12,12ZM12,2A4,4,0,1,1,8,6,4,4,0,0,1,12,2Z" />
+                                    <path
+                                        d="M12,14a9.01,9.01,0,0,0-9,9,1,1,0,0,0,2,0,7,7,0,0,1,14,0,1,1,0,0,0,2,0A9.01,9.01,0,0,0,12,14Z" />
+                                </svg>
+                                <p class="m-0">Tentang</p>
+                            </a>
+                            <a href="#pendidikan"
+                                class="btn btn-custom1 d-flex flex-column align-items-center justify-content-center p-3 gap-2">
+                                <svg viewBox="0 0 512 512" width="23" height="23">
+                                    <path
+                                        d="M470.549,111.573L313.237,36.629c-34.628-20.684-77.728-21.051-112.704-0.96L41.451,111.573  c-0.597,0.299-1.216,0.619-1.792,0.96c-37.752,21.586-50.858,69.689-29.272,107.441c7.317,12.798,18.08,23.284,31.064,30.266  l43.883,20.907V375.68c0.026,46.743,30.441,88.039,75.072,101.931c31.059,8.985,63.264,13.384,95.595,13.056  c32.326,0.362,64.531-4,95.595-12.949c44.631-13.891,75.046-55.188,75.072-101.931V271.104l42.667-20.395v175.957  c0,11.782,9.551,21.333,21.333,21.333c11.782,0,21.333-9.551,21.333-21.333v-256C512.143,145.615,492.363,122.473,470.549,111.573z   M384,375.787c0.011,27.959-18.129,52.69-44.8,61.077c-27.046,7.728-55.073,11.479-83.2,11.136  c-28.127,0.343-56.154-3.408-83.2-11.136c-26.671-8.388-44.811-33.118-44.8-61.077v-84.309l70.763,33.707  c17.46,10.368,37.401,15.816,57.707,15.765c19.328,0.137,38.331-4.98,54.976-14.805L384,291.477V375.787z M452.267,211.733  l-160.896,76.8c-22.434,13.063-50.241,12.693-72.32-0.96l-157.419-74.88c-17.547-9.462-24.101-31.357-14.639-48.903  c3.2-5.934,7.998-10.853,13.85-14.201l159.893-76.373c22.441-13.034,50.233-12.665,72.32,0.96l157.312,74.944  c11.569,6.424,18.807,18.555,18.965,31.787C469.354,193.441,462.9,205.097,452.267,211.733L452.267,211.733z" />
+                                </svg>
+                                <p class="m-0">Pendidikan</p>
+                            </a>
+                            <a href="#pengalaman"
+                                class="btn btn-custom1 d-flex flex-column align-items-center justify-content-center p-3 gap-2">
+                                <svg viewBox="0 0 24 24" height="23" width="23">
+                                    <path
+                                        d="m17 14a1 1 0 0 1 -1 1h-8a1 1 0 0 1 0-2h8a1 1 0 0 1 1 1zm-4 3h-5a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2zm9-6.515v8.515a5.006 5.006 0 0 1 -5 5h-10a5.006 5.006 0 0 1 -5-5v-14a5.006 5.006 0 0 1 5-5h4.515a6.958 6.958 0 0 1 4.95 2.05l3.484 3.486a6.951 6.951 0 0 1 2.051 4.949zm-6.949-7.021a5.01 5.01 0 0 0 -1.051-.78v4.316a1 1 0 0 0 1 1h4.316a4.983 4.983 0 0 0 -.781-1.05zm4.949 7.021c0-.165-.032-.323-.047-.485h-4.953a3 3 0 0 1 -3-3v-4.953c-.162-.015-.321-.047-.485-.047h-4.515a3 3 0 0 0 -3 3v14a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3z" />
+                                </svg>
+                                <p class="m-0">Pengalaman</p>
+                            </a>
+
+                            <a href="#kemampuan"
+                                class="btn btn-custom1 d-flex flex-column align-items-center justify-content-center p-3 gap-2">
+                                <svg viewBox="0 0 24 24" height="23" width="23">
+                                    <path
+                                        d="m21.499,0l-5,.002c-1.375,0-2.499,1.126-2.499,2.5v6.852c.001,1.069,1.206,1.695,2.081,1.081l2.047-1.436h3.372c1.381,0,2.5-1.119,2.5-2.5v-4C24,1.119,22.88,0,21.499,0Zm.484,4.24l-2.084,2.147c-.796.823-2.118.817-2.905-.015l-.769-.813c-.367-.388-.364-.995.006-1.379.395-.411,1.054-.408,1.445.006l.777.821,2.092-2.156c.391-.405,1.04-.407,1.433-.004.378.387.38,1.004.004,1.394Zm-14.483,7.76c3.032,0,5.5-2.467,5.5-5.5S10.532,1,7.5,1,2,3.467,2,6.5s2.468,5.5,5.5,5.5Zm0-9c1.93,0,3.5,1.57,3.5,3.5s-1.57,3.5-3.5,3.5-3.5-1.57-3.5-3.5,1.57-3.5,3.5-3.5Zm7.5,18.5v1.5c0,.552-.447,1-1,1s-1-.448-1-1v-1.5c0-3.033-2.468-5.5-5.5-5.5s-5.5,2.467-5.5,5.5v1.5c0,.552-.447,1-1,1s-1-.448-1-1v-1.5c0-4.136,3.364-7.5,7.5-7.5s7.5,3.364,7.5,7.5Z" />
+                                </svg>
+                                <p class="m-0">Kemampuan</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pt-4">
+
+                        <div class="bg-white px-4 rounded-4 shadow-sm">
+                            <div class="pt-5" id="tentang">
+                                <div class="d-flex align-items-center gap-3">
+                                    <h2 class="m-0 fw-bolder" style="white-space: nowrap;">Tentang Saya</h2>
+                                    <div class="garis"></div>
+                                </div>
+                                <p class="text-muted mt-4" style="text-align: justify;">Saya merupakan mahasiswa aktif
+                                    di
+                                    Universitas muslim Indonesia jurusan Sistem informasi.
+                                    Saya memiliki pengalaman Kegiatan dan pelatihan yang sesuai dengan minat saya dan
+                                    memiliki keinginan untuk mengembangkan keterampilan dan pengetahuan saya dalam
+                                    UI/UX khususnya dalam bidang Desain Antarmuka Pengguna (UI Design).</p>
+
+                                <h4 class="mt-5">Apa yang saya kerjakan?</h4>
+                                <div class="row mt-4">
+                                    <div class="col-md-6 mb-4">
+                                        <div class="d-flex p-3 gap-3 rounded-3 h-100"
+                                            style="background-color: #ffb9b93b;">
+                                            <svg viewBox="0 0 24 24" height="30" width="30" fill="rgb(199, 41, 173)">
+                                                <path
+                                                    d="m13.143,17.485l1.191-1.985-1.191-1.985c-.284-.474-.131-1.088.343-1.372.474-.285,1.088-.131,1.372.343l.643,1.071.643-1.071c.284-.474.898-.628,1.372-.343.474.284.627.898.343,1.372l-1.191,1.985,1.191,1.985c.284.474.131,1.088-.343,1.372-.161.097-.338.143-.514.143-.34,0-.671-.173-.858-.485l-.643-1.071-.643,1.071c-.188.312-.519.485-.858.485-.175,0-.353-.046-.514-.143-.474-.284-.627-.898-.343-1.372Zm-4.143,1.515c1.654,0,3-1.346,3-3v-3c0-.552-.448-1-1-1s-1,.448-1,1v3c0,.552-.449,1-1,1s-1-.448-1-1v-3c0-.552-.448-1-1-1s-1,.448-1,1v3c0,1.654,1.346,3,3,3ZM4.5,4c-.828,0-1.5.672-1.5,1.5s.672,1.5,1.5,1.5,1.5-.672,1.5-1.5-.672-1.5-1.5-1.5Zm19.5,2v12c0,2.757-2.243,5-5,5H5c-2.757,0-5-2.243-5-5V6C0,3.243,2.243,1,5,1h14c2.757,0,5,2.243,5,5Zm-2,4H2v8c0,1.654,1.346,3,3,3h14c1.654,0,3-1.346,3-3v-8Zm0-4c0-1.654-1.346-3-3-3H5c-1.654,0-3,1.346-3,3v2h20v-2Zm-13.5-2c-.828,0-1.5.672-1.5,1.5s.672,1.5,1.5,1.5,1.5-.672,1.5-1.5-.672-1.5-1.5-1.5Z" />
+                                            </svg>
+                                            <div class="col">
+                                                <h4>UI/UX Designer</h4>
+                                                <p class="m-0" style="text-align: justify;">Lorem ipsum dolor, sit amet
+                                                    consectetur
+                                                    adipisicing elit. Eveniet,
+                                                    quaerat labore cumque animi sed porro iusto.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="d-flex p-3 gap-3 rounded-3 h-100"
+                                            style="background-color: #a19fff2f;">
+                                            <svg viewBox="0 0 24 24" width="30" height="30" fill="rgb(22, 79, 185)">
+                                                <path
+                                                    d="M8.5,5c.83,0,1.5,.67,1.5,1.5s-.67,1.5-1.5,1.5-1.5-.67-1.5-1.5,.67-1.5,1.5-1.5Zm7.32,3.18l-.35-1.42c-.11-.44-.51-.76-.97-.76s-.86,.31-.97,.76l-.35,1.41-1.4,.32c-.45,.1-.77,.5-.77,.96,0,.46,.3,.86,.74,.98l1.43,.39,.36,1.43c.11,.44,.51,.76,.97,.76s.86-.31,.97-.76l.35-1.42,1.42-.35c.44-.11,.76-.51,.76-.97s-.31-.86-.76-.97l-1.42-.35Zm.79-3.3l1.76,.74,.7,1.75c.15,.38,.52,.63,.93,.63s.78-.25,.93-.63l.7-1.74,1.74-.7c.38-.15,.63-.52,.63-.93s-.25-.78-.63-.93l-1.74-.7-.7-1.74c-.15-.38-.52-.63-.93-.63s-.78,.25-.93,.63l-.69,1.73-1.73,.66c-.38,.14-.64,.51-.65,.92,0,.41,.23,.78,.61,.94Zm7.39,4.12v10c0,2.76-2.24,5-5,5H5c-2.76,0-5-2.24-5-5V5C0,2.24,2.24,0,5,0H15c.55,0,1,.45,1,1s-.45,1-1,1H5c-1.65,0-3,1.35-3,3v6.59l.56-.56c1.34-1.34,3.53-1.34,4.88,0l5.58,5.58c.54,.54,1.43,.54,1.97,0l.58-.58c1.34-1.34,3.53-1.34,4.88,0l1.56,1.56V9c0-.55,.45-1,1-1s1,.45,1,1Zm-2.24,11.17l-2.74-2.74c-.56-.56-1.48-.56-2.05,0l-.58,.58c-1.32,1.32-3.48,1.32-4.8,0l-5.58-5.58c-.56-.56-1.48-.56-2.05,0l-1.98,1.98v4.59c0,1.65,1.35,3,3,3h14c1.24,0,2.3-.75,2.76-1.83Z" />
+                                            </svg>
+                                            <div class="col">
+                                                <h4>Graphic Designer</h4>
+                                                <p class="m-0" style="text-align: justify;">Lorem, ipsum dolor sit amet
+                                                    consectetur
+                                                    adipisicing elit. Similique illo deleniti eius. Facere distinctio
+                                                    accusantium
+                                                    consectetur magnam deserunt commodi non ipsum.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="pt-5" id="pendidikan">
+                                <div class="d-flex align-items-center gap-3">
+                                    <h2 class="m-0 fw-bolder" style="white-space: nowrap;">Pendidikan</h2>
+                                    <div class="garis"></div>
+                                </div>
+                                <ul class="timeline mt-5">
+                                    <li>
+                                        <p class="fw-bold text-truncate m-0">UNIVERSITAS MUSLIM INDONESIA</p>
+                                        <p class="m-0 text-muted">Agutus 2021 - Sekarang</p>
+                                        <p class="mt-3">Fakultas Ilmu Komputer, jurusan Sistem Informasi, IPK 3.77/4.0
+                                        </p>
+
+                                        <ul class="ms-0">
+                                            <li>
+                                                Mengikuti kegiatan kreativitas mahasiswa (PKM) 2022
+                                            </li>
+                                            <li>
+                                                Mengikuti kegiatan Kreativitas Mahasiswa (PKM) hingga tahap pendanaan
+                                                2023
+                                            </li>
+                                            <li>
+                                                Sertifikat Pencerahan Oalbu Virtual 2021
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <p class="fw-bold text-truncate m-0">SMA Al Falah Timika</p>
+                                        <p class="m-0 text-muted">2017-2020</p>
+                                        <p class="mt-3">Jurusan Matematika Ilmu Alam (MIA)</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="pt-5" id="pengalaman">
+                                <div class="d-flex align-items-center gap-3">
+                                    <h2 class="m-0 fw-bolder" style="white-space: nowrap;">Pengalaman</h2>
+                                    <div class="garis"></div>
+                                </div>
+                                <div class="mt-5">
+                                    <ul class="list-group list-group-flush list-group-numbered">
+                                        <li class="list-group-item pb-4 d-flex gap-2">
+                                            <p class="m-0">Kursus Bahasa Inggris untuk Komunikasi Bisnis In Surabaya
+                                                Juli - Agustus 2022</p>
+                                        </li>
+                                        <li class="list-group-item py-4 d-flex gap-2">
+                                            <p class="m-0">Kuliah Umum “<b>IT Skills: Now And Future</b>“ , diadakan
+                                                tanggal - 14 Februari 2022</p>
+                                        </li>
+                                        <li class="list-group-item py-4 d-flex gap-2">
+                                            <p class="m-0">Speaker Session : <b>Uderstanding The Basic os UI/UX
+                                                    Design</b>, diadakan tanggal - 10 Februari 2023</p>
+                                        </li>
+                                        <li class="list-group-item pt-4 d-flex gap-2">
+                                            <p class="m-0">Perempuan Masa Depan Indonesia : Berdaya dengan
+                                                Keterampilan Digital dan siapMenggunakan Kecerdasan Buatan diadakan oleh
+                                                Microsoft dan
+                                                Prakerja - 18 November2023</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="py-5" id="kemampuan">
+                                <div class="d-flex align-items-center gap-3">
+                                    <h2 class="m-0 fw-bolder" style="white-space: nowrap;">Kemampuan</h2>
+                                    <div class="garis"></div>
+                                </div>
+                                <div class="mt-5 d-flex flex-wrap justify-content-center gap-3">
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/figma.png" alt="" srcset="">
+                                    </button>
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/photoshop.png" alt="" srcset="">
+                                    </button>
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/illustrator.png" alt="" srcset="">
+                                    </button>
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/office.png" alt="" srcset="">
+                                    </button>
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/sheets.png" alt="" srcset="">
+                                    </button>
+                                    <button class="btn btn-light p-4 shadow-sm rounded-4">
+                                        <img src="/icon/vscode.png" alt="" srcset="">
+                                    </button>
+                                </div>
+                                <div class="d-flex flex-column mt-3 gap-3">
+                                    <div class="d-flex flex-column p-3 rounded-3 gap-1 bg-light shadow-sm">
+                                        <b>HTML</b>
+                                        <div class="w-100 overflow-hidden rounded-4"
+                                            style="background-color: rgb(199, 199, 199);">
+                                            <div class="rounded-4"
+                                                style="width: 80%; height: 10px; background-color: rgb(255, 98, 125);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column p-3 rounded-3 gap-1 bg-light shadow-sm">
+                                        <b>CSS</b>
+                                        <div class="w-100 overflow-hidden rounded-4"
+                                            style="background-color: rgb(199, 199, 199);">
+                                            <div class="rounded-4"
+                                                style="width: 90%; height: 10px; background-color: rgb(255, 98, 125);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column p-3 rounded-3 gap-1 bg-light shadow-sm">
+                                        <b>Javascript</b>
+                                        <div class="w-100 overflow-hidden rounded-4"
+                                            style="background-color: rgb(199, 199, 199);">
+                                            <div class="rounded-4"
+                                                style="width: 70%; height: 10px; background-color: rgb(255, 98, 125);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column p-3 rounded-3 gap-1 bg-light shadow-sm">
+                                        <b>C++</b>
+                                        <div class="w-100 overflow-hidden rounded-4"
+                                            style="background-color: rgb(199, 199, 199);">
+                                            <div class="rounded-4"
+                                                style="width: 80%; height: 10px; background-color: rgb(255, 98, 125);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            pop = document.getElementById('popup');
+
+            function popupTogle(){
+                pop.classList.toggle('d-none')
+                pop.classList.toggle('d-flex')
+            }
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+.sosmed a {
+    padding: 15px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.garis {
+    height: 3px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: palevioletred;
+}
+
+body {
+    height: 100vh;
+    /* background: rgb(255, 247, 255);
+    background: linear-gradient(167deg, rgba(255, 247, 255, 1) 35%, rgba(254, 225, 255, 1) 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('/bg2.jpg');
+}
+
+.btn-custom1 {
+    padding: 10px !important;
+    transition: 0.4s;
+    border-radius: 14px !important;
+}
+
+.btn-custom1:hover {
+    background-color: #FFB9B9 !important;
+}
+
+.btn-custom1 svg {
+    transition: 0.4s;
+}
+
+
+.btn-custom1 img {
+    height: 30px;
+}
+
+.info {
+    position: static;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #FFB9B9;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.nb .active {
+    background: rgb(254, 8, 79);
+    background: linear-gradient(122deg, rgba(254, 8, 79, 1) 35%, rgba(255, 0, 116, 1) 100%);
+    color: white !important;
+}
+
+.bg-custom{
+    background: rgb(254, 8, 79);
+    background: linear-gradient(122deg, rgba(254, 8, 79, 1) 35%, rgba(255, 0, 116, 1) 100%);
+}
+
+.nb .active svg {
+    fill: white !important;
+}
+
+.h-custom {
+    height: auto !important;
+
+}
+
+.nb a{
+    z-index: 99;
+}
+
+@media (min-width: 992px) {
+    .info {
+        position: fixed;
+    }
+
+    .h-custom {
+        height: 100vh;
+    }
+}
