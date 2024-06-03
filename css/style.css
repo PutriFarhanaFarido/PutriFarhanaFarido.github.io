@@ -112,6 +112,14 @@ ul.timeline>li:before {
 .nb a{
     z-index: 99;
 }
+.prjk{
+    background-color: #fbfbfb;
+}
+
+.prjk img{
+    max-width: 100%;
+    
+}
 
 @media (min-width: 992px) {
     .info {
